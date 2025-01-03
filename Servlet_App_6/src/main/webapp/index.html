@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>User Registration</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class = "form-container">
+		<form id="registrationForm" action="UserRegistrationServlet" method="post">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required><br>
+
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" required><br>
+
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstname" name="firstname" required><br>
+
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastname" name="lastname" required><br>
+
+			<label for="city">City:</label>
+			<input type="text" id="city" name="city" required><br>
+
+			<label for="mailId">Mail Id:</label>
+			<input type="text" id="mailId" name="mailId" required><br>
+
+			<label for="phone">Phone Number:</label>
+			<input type="text" id="phone" name="phone" required><br>
+
+			<button type="submit">Register</button>
+		</form>
+	</div>
+	<script src="style.js"></script>
+</body>
+</html>
